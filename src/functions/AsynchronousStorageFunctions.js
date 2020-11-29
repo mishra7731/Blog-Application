@@ -23,7 +23,6 @@ const getData = async (key) => {
     if (data != null) {
       return data;
     } else {
-      //alert("Invalid Information!");
     }
   } catch (error) {
     alert(error);
@@ -36,7 +35,6 @@ const getDataJSON = async (key) => {
       const jsonData = JSON.parse(data);
       return jsonData;
     } else {
-      //alert("Invalid Information!");
     }
   } catch (error) {
     alert(error);
